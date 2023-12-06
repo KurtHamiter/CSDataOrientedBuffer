@@ -59,9 +59,6 @@ static (Entity* entity, PositionX* posX, PositionY* posY, PositionZ* posZ) =>
   Avx.StoreAligned((float*)posY, vResultY);
   Avx.StoreAligned((float*)posZ, vResultZ);
 },
-
-
-
 (ref Entity entity, ref PositionX posX, ref PositionY posY, ref PositionZ posZ) =>
 {
   // scalar overflow
