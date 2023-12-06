@@ -71,7 +71,7 @@ static (Entity* entity, PositionX* posX, PositionY* posY, PositionZ* posZ) =>
 ## Benchmark
 ### Linear interpolation between two 3D vectors
 #### Operating on 50,000 entities
-##### i7 6700k
+##### i7-6700k
 ##### .Net 8
 ##### BenchmarkDotNet
 
